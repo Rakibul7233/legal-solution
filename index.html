@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
      <style type="text/tailwindcss">
     @theme {
-      --color-primary1: #B68C5A;
-      --color-secondary: #FFFFFF;
+      --color-btn-color: #B68C5A;
+      --color-white: #FFFFFF;
+      --color-dark-2: #414040;
+      --color-dark-3: #707070;
+      --color-dark-6: #E7E7E7;
+      --color-linear-1: rgba(17, 17, 17, 0);
+      --color-linear-2: rgba(17, 17, 17, 1)
     }
   </style>
     <title>Legal Solution</title>
@@ -17,14 +26,22 @@
         <nav class="flex justify-between">
             <img class="w-40 h-[46px]" src="images/logo2.png" alt="">
             <ul class=" flex gap-7">
-                <li class="list-none content-center"><a href="">Home</a></li>
-                <li class="list-none content-center"><a href="">Services</a></li>
-                <li class="list-none content-center" ><a href="">Cases</a></li>
-                <li class="list-none content-center"><a href="">Blog</a></li>
-                <li class="list-none content-center"><a href="">Contact Us </a></li>
+                <li class="text-dark-3 list-none content-center"><a href="">Home</a></li>
+                <li class="text-dark-3 list-none content-center"><a href="">Services</a></li>
+                <li class="text-dark-3 list-none content-center" ><a href="">Cases</a></li>
+                <li class="text-dark-3 list-none content-center"><a href="">Blog</a></li>
+                <li class="text-dark-3 list-none content-center"><a href="">Contact Us </a></li>
             </ul>
-            <button class="bg-primary1 text-secondary px-7 py-5 rounded-lg">Free Consultation</button>
+            <button class="bg-btn-color text-white px-7 py-5 rounded-lg">Free Consultation</button>
         </nav>
+
+        <div class="banner h-[550px] mt-12 bg-[linear-gradient(rgba(17,17,17,0),rgba(17,17,17,1)),url(images/banner.png)] justify-center items-center flex">
+
+          <div class=" max-w-[670px] max-h-[268px]">
+            <h1 class="font-bold text-7xl eb-garamond text-center text-white">We Provide Effective Legal Solutions</h1>
+          </div>
+          </div>
+      
     </header>
  </body>
  </html>
