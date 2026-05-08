@@ -7,7 +7,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
      <style type="text/tailwindcss">
     @theme {
       --color-btn-color: #B68C5A;
@@ -15,16 +19,14 @@
       --color-dark-2: #414040;
       --color-dark-3: #707070;
       --color-dark-6: #E7E7E7;
-      --color-linear-1: rgba(17, 17, 17, 0);
-      --color-linear-2: rgba(17, 17, 17, 1)
     }
   </style>
     <title>Legal Solution</title>
  </head>
  <body>
-    <header class="w-[1170px] mt-12 mx-auto">
-        <nav class="flex justify-between">
-            <img class="w-40 h-[46px]" src="images/logo2.png" alt="">
+    <header class="w-292.5 mt-12 mx-auto">
+        <nav class="flex justify-between poppins">
+            <img class="w-40 h-11.5" src="images/logo2.png" alt="">
             <ul class=" flex gap-7">
                 <li class="text-dark-3 list-none content-center"><a href="">Home</a></li>
                 <li class="text-dark-3 list-none content-center"><a href="">Services</a></li>
@@ -35,10 +37,17 @@
             <button class="bg-btn-color text-white px-7 py-5 rounded-lg">Free Consultation</button>
         </nav>
 
-        <div class="banner h-[550px] mt-12 bg-[linear-gradient(rgba(17,17,17,0),rgba(17,17,17,1)),url(images/banner.png)] justify-center items-center flex">
+        <div class="rounded-lg banner h-137.5 mt-12 bg-[linear-gradient(rgba(17,17,17,0),rgba(17,17,17,1)),url(images/banner.png)] justify-center items-center flex">
 
-          <div class=" max-w-[670px] max-h-[268px]">
+          <div class=" max-w-167.5 max-h-67.5">
             <h1 class="font-bold text-7xl eb-garamond text-center text-white">We Provide Effective Legal Solutions</h1>
+            <p class="poppins text-dark-6 text-center mt-6">
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
+            </p>
+            <div class="flex gap-6 mt-6 poppins">
+              <input type="text" class="pl-5 pr-80 py-5 rounded-lg text-lg bg-white" placeholder="Search your service">
+              <button class="bg-btn-color text-dark-6 text-lg rounded-lg mt- px-10 py-5   ">Search</button>
+            </div>
           </div>
           </div>
       
